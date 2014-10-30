@@ -1,4 +1,4 @@
-var csv = require('csv');
+var csv = require('..');
 
 csv.generate({seed: 1, columns: 2, length: 20})
   .pipe(csv.parse())
